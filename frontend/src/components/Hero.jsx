@@ -32,6 +32,14 @@ const Hero = ({ scrollToSection }) => {
             </Button>
             <Button
               variant="outline"
+              onClick={() => {
+                const link = document.createElement('a');
+                link.href = 'https://customer-assets.emergentagent.com/job_java-middleware/artifacts/hmfxgs7x_Riddhi_Kalra_CV.pdf';
+                link.download = 'Riddhi_Kalra_Resume.pdf';
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+              }}
               className="border-gray-600 text-white hover:bg-white hover:text-black transition-all duration-300 px-8 py-3 text-lg font-medium"
             >
               <Download className="w-4 h-4 mr-2" />
