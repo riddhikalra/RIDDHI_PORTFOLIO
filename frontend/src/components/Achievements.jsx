@@ -1,7 +1,7 @@
 import React from "react";
 import { Card, CardContent, CardHeader, CardTitle } from "./ui/card";
 import { Badge } from "./ui/badge";
-import { Trophy, Award, Star, Target } from "lucide-react";
+import { Trophy, Award } from "lucide-react";
 
 const Achievements = () => {
   const achievements = [
