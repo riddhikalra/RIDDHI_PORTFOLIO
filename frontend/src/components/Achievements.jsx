@@ -69,7 +69,7 @@ const Achievements = () => {
         </div>
 
         {/* Achievement Cards */}
-        <div className="grid lg:grid-cols-2 gap-8">
+        <div className="grid lg:grid-cols-1 gap-8">
           {achievements.map((achievement, index) => (
             <Card key={index} className="bg-gray-950 border-gray-800 hover:border-gray-700 transition-all duration-300 hover:shadow-2xl hover:shadow-white/5">
               <CardHeader>
