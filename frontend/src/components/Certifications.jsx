@@ -47,12 +47,7 @@ const Certifications = () => {
     }
   ];
 
-  const upcomingCertifications = [
-    "AWS Certified Solutions Architect",
-    "Oracle Java SE Certification",
-    "Apache Camel Developer Certification",
-    "Spring Professional Certification"
-  ];
+
 
   return (
     <section id="certifications" className="py-20 px-4 sm:px-6 lg:px-8 bg-gray-950">
