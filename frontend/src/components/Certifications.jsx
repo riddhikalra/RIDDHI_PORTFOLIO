@@ -115,28 +115,6 @@ const Certifications = () => {
             </Card>
           ))}
         </div>
-
-        {/* Upcoming Certifications */}
-        <div className="bg-gray-900 border border-gray-800 rounded-lg p-8">
-          <div className="flex items-center space-x-3 mb-6">
-            <BookOpen className="w-6 h-6 text-white" />
-            <h3 className="text-2xl font-semibold text-white">Upcoming Certifications</h3>
-          </div>
-          <p className="text-gray-400 mb-6">
-            Currently pursuing additional certifications to expand expertise and stay current with industry trends.
-          </p>
-          <div className="grid sm:grid-cols-2 gap-4">
-            {upcomingCertifications.map((cert, index) => (
-              <div key={index} className="flex items-center space-x-3 p-3 bg-gray-950 rounded-lg border border-gray-800">
-                <div className="w-2 h-2 bg-gray-400 rounded-full"></div>
-                <span className="text-gray-300 font-medium">{cert}</span>
-                <Badge variant="outline" className="border-gray-700 text-gray-500 text-xs ml-auto">
-                  In Progress
-                </Badge>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );
