@@ -32,34 +32,6 @@ const Achievements = () => {
         "Cloud platform expertise",
         "Performance optimization"
       ]
-    },
-    {
-      title: "Enterprise Integration Expert",
-      organization: "Self-Achievement",
-      description: "Successfully migrated 10+ enterprise services from legacy systems to modern Apache Camel architecture with zero downtime.",
-      icon: <Star className="w-6 h-6" />,
-      category: "Technical Excellence",
-      date: "2023-2024",
-      highlights: [
-        "Zero-downtime migrations",
-        "10+ service transformations",
-        "Legacy system modernization",
-        "Business continuity maintained"
-      ]
-    },
-    {
-      title: "API Development Specialist",
-      organization: "Professional Achievement",
-      description: "Developed and deployed multiple high-performance REST/SOAP APIs serving critical business workflows across the organization.",
-      icon: <Target className="w-6 h-6" />,
-      category: "Development Excellence",
-      date: "2022-2024",
-      highlights: [
-        "High-performance API design",
-        "Critical business workflow support",
-        "Scalable architecture implementation",
-        "Security best practices"
-      ]
     }
   ];
 
