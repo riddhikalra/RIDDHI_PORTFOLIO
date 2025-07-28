@@ -91,25 +91,6 @@ const Education = () => {
                     ))}
                   </div>
                 </div>
-
-                <div>
-                  <h4 className="text-lg font-semibold text-white mb-4">Academic Projects</h4>
-                  <div className="space-y-4">
-                    {education.projects.map((project, index) => (
-                      <div key={index} className="bg-gray-900 p-4 rounded-lg border border-gray-800">
-                        <h5 className="font-semibold text-white mb-2">{project.title}</h5>
-                        <p className="text-gray-400 text-sm mb-3">{project.description}</p>
-                        <div className="flex flex-wrap gap-2">
-                          {project.technologies.map((tech, idx) => (
-                            <Badge key={idx} variant="outline" className="border-gray-700 text-gray-400 text-xs">
-                              {tech}
-                            </Badge>
-                          ))}
-                        </div>
-                      </div>
-                    ))}
-                  </div>
-                </div>
               </CardContent>
             </Card>
           </div>
