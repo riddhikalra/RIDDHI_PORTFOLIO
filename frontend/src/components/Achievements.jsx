@@ -39,7 +39,7 @@ const Achievements = () => {
     { number: "10+", label: "Middleware Services", description: "Developed & Deployed" },
     { number: "2.5+", label: "Years Experience", description: "Java Development" },
     { number: "100%", label: "Project Success", description: "Zero Failed Deployments" },
-    { number: "3", label: "Major Migrations", description: "Legacy to Modern Systems" }
+    { number: "2", label: "Major Achievements", description: "Professional Recognition" }
   ];
 
   return (
