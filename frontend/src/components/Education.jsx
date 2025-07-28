@@ -21,18 +21,6 @@ const Education = () => {
       "Web Technologies",
       "Microprocessors"
     ],
-    projects: [
-      {
-        title: "Enterprise Resource Planning System",
-        description: "Developed a comprehensive ERP system using Java and MySQL for inventory management and employee tracking.",
-        technologies: ["Java", "MySQL", "Swing", "JDBC"]
-      },
-      {
-        title: "Web-based Task Management Application",
-        description: "Created a collaborative task management platform with real-time updates and user authentication.",
-        technologies: ["JavaScript", "Node.js", "MongoDB", "Socket.IO"]
-      }
-    ],
     achievements: [
       "Consistent academic performance throughout the program",
       "Active participation in coding competitions",
